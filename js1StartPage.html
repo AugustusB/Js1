@@ -18,36 +18,34 @@
             var x = 20;
             sampleObj.funcXPlussZ(x, '#variable1');
             
-            // var txt2 = $('#variable2').text();
-            // $('#variable2').text(txt2 + " : x = " + x)
-            // var txt3 = $('#variable3').text();
-            // $('#variable3').text(txt3 + " : z = " + z)
+            var txt2 = $('#variable2').text();
+            $('#variable2').text(txt2 + " : x = " + x)
+            var txt3 = $('#variable3').text();
+            $('#variable3').text(txt3 + " : z = " + z)
 
-            // sampleObj.primitiveDataTypes("#undef");
+            sampleObj.primitiveDataTypes("#undef");
 
-            // $('#variable4').append('<p> func1 typeof : ' + typeof func1 + '</p>');
+            $('#variable4').append('<p> func1 typeof : ' + typeof func1 + '</p>');
             
-            // var func1 = function func1(){
-            //     return 20000;
-            // }
+            var func1 = function func1(){
+                return 20000;
+            }
 
-            // $('#variable5').append('<p> func1 excuted : ' + func1() + '</p>');
+            $('#variable5').append('<p> func1 excuted : ' + func1() + '</p>');
 
-            // sampleObj.itterateUseForin('#mySelect');
+            sampleObj.itterateUseForin('#mySelect');
 
-            // var func2 = function func2(){
-            //     var str = $('#variable7').text();
-            //     z+=2;
-            //     $('#variable7').append(str + '<p> z : ' + z + '</p>');
+            var func2 = function func2(){
+                var str = $('#variable7').text();
+                z+=2;
+                $('#variable7').append(str + '<p> z : ' + z + '</p>');
 
-            // } 
+            } 
 
-            // func2('#variable7');
-
-            // $('#variable8').append('<p> z : ' + z + '</p>');
+            $('#variable8').append('<p> z : ' + z + '</p>');
            
             $('#variable9').append('<p> z : ' + sampleObj.z1 + '</p>');
-            $('#variable10').append('<p> z : ' + window.z + '</p>');
+            $('#variable10').ap5pend('<p> z : ' + window.z + '</p>');
 
         });
     </script>
